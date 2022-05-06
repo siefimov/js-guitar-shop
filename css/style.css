@@ -1,0 +1,14 @@
+:root {
+   --color-light: #f8f9fa;
+}
+
+#{
+   box-sizing: border-box;
+}
+body {
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   font-family: sans-serif;
+   line-height: 1.7;
+   background-color: var(--color-light);
+}
