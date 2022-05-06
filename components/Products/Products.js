@@ -27,7 +27,7 @@ class Products {
       </ul>
       `
 
-      ROOT_PRODUCTS.innerHTML = html
+    ROOT_PRODUCTS.innerHTML = html
   }
 }
 
