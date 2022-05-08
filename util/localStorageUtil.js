@@ -2,8 +2,9 @@ class LocalStorageUtil {
   constructor () {
     this.keyName = 'products'
   }
+
   getProducts () {
-    const productsLocalStorage = localStorage.getItem(this.keyname)
+    const productsLocalStorage = localStorage.getItem(this.keyName)
     if (productsLocalStorage !== null) {
       return JSON.parse(productsLocalStorage)
     }
@@ -11,7 +12,7 @@ class LocalStorageUtil {
   }
 
   putProducts (id) {
-    let products = this.getProducts
+    let products = this.getProducts()
     let pushProduct = false
     const index = products.indexOf(id)
 
@@ -19,7 +20,7 @@ class LocalStorageUtil {
       products.push(id)
       pushProduct = true
     } else {
-      products.slice(index, 1)
+      products.splice(index, 1)
     }
 
     localStorage.setItem(this.keyName, JSON.stringify(products))
