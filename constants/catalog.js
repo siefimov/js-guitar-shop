@@ -68,5 +68,12 @@ const CATALOG = [
     img:
       'https://i0.wp.com/plamis.com.ua/wp-content/uploads/2021/03/PW-200-52-scaled.jpg?resize=691%2C1024&ssl=1',
     price: 150
+  },
+  {
+    id: 'el10',
+    name: 'Віск для насипної свічки, ГАРБУЗОВИЙ, 200 г',
+    img:
+      'https://i0.wp.com/plamis.com.ua/wp-content/uploads/2021/03/PW-200-52-scaled.jpg?resize=691%2C1024&ssl=1',
+    price: 150
   }
 ]
