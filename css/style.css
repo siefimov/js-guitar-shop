@@ -2,6 +2,7 @@
    --color-light: #f8f9fa;
    --color-white: #fff;
    --color-unaccent: #808080;
+   --color-medium: #e8e8e8;
 
    --spacing-small: 10px;
    --spacing-medium: 15px;
@@ -21,7 +22,7 @@
       0 8px 10px -5px rgba(33, 37, 41, 0.1);
 }
 
-#{
+# {
    box-sizing: border-box;
 }
 body {

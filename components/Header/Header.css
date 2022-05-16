@@ -1,0 +1,9 @@
+.header-conrtainer {
+   display: flex;
+   height: 50px;
+   padding: var(--spacing-small);
+   background-color: var(--color-medium);
+}
+
+.header-counter {
+}
